@@ -18,7 +18,7 @@
   --color-white: #fff;
   --color-light: rgba(255, 255, 255, 0.6);
 
-  --transition: all 400ms ease
+  --transition: all 400ms ease;
 
   --container-width-lg: 75%;
   --container-width-md: 86%;
@@ -46,12 +46,16 @@ body {
   margin: 0 auto;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   font-weight: 500;
 }
 
 h1 {
-  font-size: 2.5rem
+  font-size: 2.5rem;
 }
 
 section {
@@ -59,7 +63,8 @@ section {
   height: 100vh;
 }
 
-section > h2, section > h5 {
+section > h2,
+section > h5 {
   text-align: center;
   color: var(--color-light);
 }
@@ -79,7 +84,7 @@ a {
 }
 
 a:hover {
-  color: var(--color-white)
+  color: var(--color-white);
 }
 
 .btn {
@@ -93,7 +98,7 @@ a:hover {
   transition: var(--transition);
 }
 
-.btn:hover{
+.btn:hover {
   background: var(--color-white);
   color: var(--color-bg);
   border-color: transparent;
